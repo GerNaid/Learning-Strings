@@ -1,0 +1,28 @@
+echo "# Learning-Strings" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/GerNaid/Learning-Strings.git
+git push -u origin main
+
+# Naming a string
+"Michael Jackson"
+'1 2 23  4 5'
+'@#$'
+
+# printing a string
+print("hello!")
+
+# giving a variale a sting value
+Name = 'Michael Jacson'
+Name
+
+# indexing that same string
+print(Name[0])
+print(Name[6])
+print(Name[-12])
+
+# using the length operation
+len('Michael Jacson')
+Name[0:4]
